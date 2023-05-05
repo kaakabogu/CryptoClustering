@@ -59,6 +59,6 @@ Use the StandardScaler() module from scikit-learn to normalize the data from the
 
 	Create a scatter plot using hvPlot as follows:
 
-    o	Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+    o	Set the x-axis as "PC1" and the y-axis as "PC2".
     o	Color the graph points with the labels found using K-means.
     o	Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
